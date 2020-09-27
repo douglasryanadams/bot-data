@@ -18,8 +18,8 @@ apt install sudo vim net-tools nginx
 adduser "$LOGIN_USER"
 addgroup admin
 adduser "$LOGIN_USER" admin
-ssh /etc/ssh/sshd_config
 
+vim /etc/ssh/sshd_config
 # PermitRootLogin no
 service ssh restart
 
