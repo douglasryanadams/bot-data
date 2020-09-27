@@ -17,7 +17,7 @@ apt install sudo vim net-tools nginx
 # Create User, Make Admin, Allow SSH, Disable Root SSH
 adduser "$LOGIN_USER"
 addgroup admin
-adduser rain admin
+adduser "$LOGIN_USER" admin
 ssh /etc/ssh/sshd_config
 
 # PermitRootLogin no
