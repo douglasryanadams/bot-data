@@ -18,6 +18,9 @@ apt install sudo vim net-tools nginx
 adduser "$LOGIN_USER"
 addgroup admin
 adduser "$LOGIN_USER" admin
+adduser "$LOGIN_USER" adm
+rm /etc/logrotate.d/nginx
+
 
 vim /etc/ssh/sshd_config
 # PermitRootLogin no
