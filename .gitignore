@@ -1,5 +1,14 @@
-*.swp
+# Config contains sensitive data
 config.yml
-.venv/
-colleted-logs/
+
+# Directories for pulled data
+collected-logs/
 log-copies/
+access-logs/
+csv/
+
+# Miscellaneous Environment Files/Directories
+.venv/
+.idea/
+*.swp
+.DS_Store
