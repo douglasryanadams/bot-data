@@ -1,2 +1,4 @@
 paramiko
 pyaml
+sklearn
+jupyter
